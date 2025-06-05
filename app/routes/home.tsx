@@ -1,6 +1,6 @@
 // src/routes/home.tsx
 import { NavLink } from "react-router-dom";
-import styles from "@/pages/Home/Home.module.css";
+// import styles from "@/pages/Home/Home.module.css";
 
 // Liste statique des tâches
 const tasks = [
@@ -11,12 +11,12 @@ const tasks = [
 
 const Home = () => {
   return (
-    <div className={styles.container}>
+    <div>
       <h1>Liste des Tâches</h1>
       <ul>
         {tasks.map((task) => (
           <li key={task.id}>
-            <NavLink to={`/tasks/${task.id}`} className={styles.taskLink}>
+            <NavLink to={`/tasks/${task.id}`} >
               {task.title}
             </NavLink>
           </li>

@@ -1,0 +1,26 @@
+/* app/pages/HomeView/HomeView.css */
+.task-list {
+  padding: 20px;
+}
+
+.task-list h1 {
+  font-size: 2em;
+}
+
+.task-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.task-list li {
+  margin: 10px 0;
+}
+
+.task-list a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.task-list a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,17 @@
+/* app/pages/TaskDetailView/TaskDetailView.css */
+.task-detail {
+  padding: 20px;
+}
+
+.task-detail h1 {
+  font-size: 2em;
+}
+
+.task-detail a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.task-detail a:hover {
+  text-decoration: underline;
+}
