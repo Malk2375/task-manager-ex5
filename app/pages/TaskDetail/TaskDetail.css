@@ -1,0 +1,14 @@
+/* src/pages/TaskDetail/TaskDetail.module.css */
+.container {
+  padding: 20px;
+  text-align: center;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

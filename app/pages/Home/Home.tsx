@@ -1,6 +1,6 @@
-// src/routes/home.tsx
+// src/pages/Home/Home.tsx
 import { NavLink } from "react-router-dom";
-import styles from "@/pages/Home/Home.module.css";
+import styles from "./Home.module.css";
 
 // Liste statique des tâches
 const tasks = [
