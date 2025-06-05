@@ -6,7 +6,7 @@ import './HomeView.css';
 const tasks = [
   { id: 1, title: 'Tâche 1', description: 'Description de la tâche 1' },
   { id: 2, title: 'Tâche 2', description: 'Description de la tâche 2' },
-  { id: 3, title: 'Tâche 3', description: 'Description de la tâche 3' }
+  { id: 3, title: 'Tâche 3', description: 'Description de la tâche 3' },
 ];
 
 const HomeView = () => {
